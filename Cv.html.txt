@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <style>
+    body {
+      background-color: #212121;
+      color: #fff;
+      font-family: Arial, sans-serif;
+    }
+
+    h1, h2 {
+      background-color: #3f51b5;
+      text-align: center;
+      color: #fff;
+      padding: 10px;
+      margin: 0;
+    }
+
+    p, table, ul {
+      color: #fff;
+      margin: 10px;
+    }
+
+    table {
+      border-collapse: collapse;
+      width: 80%;
+    }
+
+    th {
+      background-color: #3f51b5;
+      color: #fff;
+      border: 2px solid #fff;
+      padding: 10px;
+    }
+
+    td {
+      background-color: #546e7a;
+      color: #fff;
+      border: 1px solid #fff;
+      padding: 5px;
+      text-align: center;
+      font-size: 16px;
+    }
+
+    ul {
+      list-style-type: square;
+      margin-left: 20px;
+      margin-top: 10px;
+    }
+
+    b {
+      color: #3f51b5;
+    }
+
+    .reference {
+      margin-top: 20px;
+    }
+
+    .links {
+      text-align: center;
+      margin-top: 20px;
+    }
+
+    .links a {
+      color: #fff;
+      text-decoration: none;
+      margin: 10px;
+    }
+  </style>
+</head>
+
+<body>
+  <h1>Curriculum Vitae</h1>
+
+  <h2>PERSONAL INFORMATION</h2>
+
+  <p>
+    <b>Name:</b> Shahrira Mahmud Miraj<br>
+    <b>Address:</b> 7/2, East Rampura, Post Office Goli, Dhaka<br>
+    <b>Blood group:</b> O positive<br>
+    <b>Date of Birth:</b> 4th Sep 2002<br>
+    <b>National ID No:</b> 9591865812 <br>
+
+  </p>
+
+  <h2>Academic Qualification</h2>
+  <table>
+    <tr>
+      <th>Degree</th>
+      <th>Institution</th>
+      <th>Result</th>
+    </tr>
+    <tr>
+      <td>SSC</td>
+      <td>Pagla High School, Delpara Road, Narayanganj</td>
+      <td>GPA 5</td>
+    </tr>
+    <tr>
+      <td>HSC</td>
+      <td>Dhaka Imperial College, Dhaka</td>
+      <td>GPA 3.59</td>
+    </tr>
+    <tr>
+      <td>BSc. CSE</td>
+      <td>American International University-Bangladesh</td>
+      <td>CGPA 3.55</td>
+    </tr>
+  </table>
+
+  <h2>Career Objective</h2>
+  <ul>
+    <li>A dedicated and driven professional looking to connect with the rapidly growing technology sector, take on new challenges, and participate in group conversations.</li>
+  </ul>
+
+  <h2>Skills</h2>
+  <ul>
+    <li>Java</li>
+    <li>C#</li>
+    <li>C++</li>
+    <li>ASP.NET</li>
+  </ul>
+
+  <h2 class="reference">References</h2>
+  <ul>
+    <li>
+      <b>Md Masum Billah</b><br>
+      Assistant Professor, CS<br>
+      American International University-Bangladesh
+    </li>
+  </ul>
+
+  <div class="links">
+    <a href="https://github.com/ShariarMiraj" target="_blank">GitHub</a>
+    <a href="https://www.linkedin.com/in/shahriar-mahmud-miraj-338028263/" target="_blank">LinkedIn</a>
+  </div>
+</body>
+</html>
